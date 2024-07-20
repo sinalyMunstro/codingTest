@@ -1,0 +1,18 @@
+
+#### `package.json`
+
+```json
+{
+  "name": "fintech-transaction-task",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
