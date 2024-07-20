@@ -38,3 +38,19 @@ const feePercentage = 2.9;
 
 console.log(processTransactions(transactions, feePercentage));
 // Output: [{ id: "tx1", amount: 10000, fee: 290, netAmount: 9710, currency: "USD" }, { id: "tx2", amount: 5000, fee: 145, netAmount: 4855, currency: "EUR" }]
+
+## Instructions
+
+1. Clone this repository.
+2. Implement the `processTransactions` function in `src/index.ts`.
+3. Commit and push your changes.
+4. Create a pull request to this repository.
+
+## Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run tests
+npm test
