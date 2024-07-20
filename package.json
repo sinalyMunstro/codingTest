@@ -1,13 +1,16 @@
-
-#### `package.json`
-
-```json
 {
   "name": "fintech-transaction-task",
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
